@@ -1,0 +1,220 @@
+@media screen and (max-width: 1000px) {
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) { /*--col-xs--*/
+/*画面サイズが575px以下だったらここを読み込む*/
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .navbar-nav {
+    margin-top:30px;
+  }
+
+  .navbar-nav li :hover{
+    border: none;
+  }
+
+  .fa-twitter, .fa-instagram {
+    margin-right:15px;
+    margin-left:10px;
+  }
+
+  *:focus {
+    outline:none !important;
+  }
+
+  /*------------Profile about me ---------------*/
+
+  .icon {
+    text-align: center;
+  }
+
+  .yusaku { /*yusakuicon*/
+    float:none;
+    min-width:300px;
+    min-width:90%;
+    min-height:90%;
+  }
+
+  .myself {
+    font-size:20px;
+    margin:0 auto;
+    margin-top:30px;
+  }
+
+  .main {   /*自己紹介の文字列分解*/
+    text-align: center;
+  }
+  .sub { /*自己紹介の文字列分解*/
+    display:inline-block;
+  }
+
+  /*---------------work paragraph----------*/
+
+  .card_content {
+    text-align: center;
+  }
+
+  .card {
+    text-align: center;
+  }
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) { /*--col-sm--*/
+  /*画面サイズが767px以下だったらここを読み込む*/
+
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .navbar-nav {
+    margin-top:30px;
+  }
+
+  .navbar-nav li :hover{
+    border: none;
+  }
+
+  .fa-twitter, .fa-instagram {
+    margin-right:15px;
+    margin-left:10px;
+  }
+
+  *:focus {
+    outline:none !important;
+  }
+
+  /*------------Profile about me ---------------*/
+
+  .icon {
+    text-align: center;
+  }
+
+  .yusaku { /*yusakuicon*/
+    float:none;
+    max-width:600px;
+    width:80%;
+    height:80%;
+  }
+
+  .myself {
+    font-size:20px;
+    margin:0 auto;
+    margin-top:30px;
+  }
+
+  .main {   /*自己紹介の文字列分解*/
+    text-align: center;
+  }
+  .sub { /*自己紹介の文字列分解*/
+    display:inline-block;
+  }
+
+  /*---------------work paragraph----------*/
+
+  .card_content {
+    text-align: center;
+  }
+
+  .card {
+    text-align: center;
+  }
+
+
+ }
+
+
+
+
+
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) { /*--col-md--*/
+  /*画面サイズが991px以下だったらここを読み込む*/
+
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .navbar-nav {
+    margin-top:30px;
+  }
+
+  .navbar-nav li :hover{
+    border: none;
+  }
+
+  .fa-twitter, .fa-instagram {
+    margin-right:15px;
+    margin-left:10px;
+  }
+
+  *:focus {
+    outline:none !important;
+  }
+
+  /*------------Profile about me ---------------*/
+
+  .icon {
+    text-align: center;
+  }
+
+  .yusaku { /*yusakuicon*/
+    float:none;
+    min-width:300px;
+    width:80%;
+    height:80%;
+  }
+
+  .myself {
+    font-size:25px;
+    margin:0 auto;
+    margin-top:30px;
+  }
+
+  .main {   /*自己紹介の文字列分解*/
+    text-align: center;
+  }
+  .sub { /*自己紹介の文字列分解*/
+    display:inline-block;
+  }
+
+  /*---------------work paragraph----------*/
+
+  .card_content {
+    text-align: center;
+  }
+
+  .card {
+    text-align: center;
+  }
+
+ }
+
+
+
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199px) {
+  /*画面サイズが1199px以下だったらここを読み込む*/
+ }
