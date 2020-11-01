@@ -1,0 +1,167 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+.container-fluid{
+  width:100%;
+  padding: 0 !important; /*左右全体の余白を消去*/
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-icon {  /*twitter and instagram icon */
+  font-size:30px;
+}
+
+/*twiiter,instaアイコン*/
+.fa-twitter, .fa-instagram {
+  margin-right: 30px;
+  color: white;
+  opacity:0.7;
+}
+.fa-twitter:hover {
+  color: white;
+  opacity:1;
+}
+.fa-instagram:hover {
+  color: white;
+  opacity:1;
+}
+/*twiiter,instaアイコンここまで---------------*/
+
+.navbar-toggler{
+  margin-left:15px;
+}
+
+.navbar-nav li{  /*ヘッダー５つ*/
+  font-size:20px;
+  margin-left:15px;
+}
+
+.navbar-nav li :hover{ /*白い線ホバー*/
+  border-bottom: 1px solid white;
+  margin-bottom: -1px;
+}
+
+.image {
+  background-image: url('apple.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:90vh;
+  width:100%;
+}
+
+
+
+/*------------Profile about me ---------------*/
+
+.profile_contents{
+  padding-bottom:100px;
+}
+
+.profile {
+  color:black;
+  padding:30px 30px 30px 50px;
+  margin-top:30px;
+}
+
+.profile h1{ /*-profile--*/
+  font-family: futura-pt,sans-serif;
+  font-size:40px;
+}
+
+.profile h5{ /*--Who I am--*/
+  font-family: 'Noto Serif SC',serif;
+  font-style: italic;
+}
+
+.icon {
+  text-align: center;
+}
+
+.yusaku {
+  width:550px;
+  height:370px;
+}
+
+
+
+.myself {
+  font-size: 25px;
+  box-shadow: 6px 6px 20px -2px rgba(80,80,80,0.6);
+  background: #fafafa;
+}
+
+.inside {
+  padding:50px;
+}
+
+.main {
+  font-family: futura-pt,sans-serif;
+  font-size:27px;
+}
+
+.sub {
+  font-style: italic;
+}
+
+
+/*--------------------skill paragraph------------------------*/
+
+.row {
+  background-color:rgba(0, 0, 0, 0.7);
+  margin-top:20px;
+  padding-bottom: 100px;
+}
+
+.skill {
+  width:100%;
+  color:white;
+  padding:30px 30px 30px 70px;
+  margin-top:30px;
+}
+
+.skill h1{ /*--skill--*/
+  font-family: futura-pt,sans-serif;
+  font-size:40px;
+}
+
+.skill h5{ /*--what I do--*/
+  font-family: 'Noto Serif SC',serif;
+  font-style: italic;
+}
+
+.can {
+  font-size:100px;
+  padding:30px;
+  text-align: center;
+  box-shadow: 6px 6px 20px -2px rgba(80,80,80,0.6);
+  background: #fafafa;
+}
+
+.can p {
+  font-size:30px;
+}
+
+
+/*-------------------work paragraph-------------------*/
+
+.work {
+  width:100%;
+  padding:30px 30px 30px 50px;
+  margin-top:30px;
+}
+
+.work h1{ /*--skill--*/
+  font-family: futura-pt,sans-serif;
+  font-size:40px;
+}
+
+.work h5{ /*--what I do--*/
+  font-family: 'Noto Serif SC',serif;
+  font-style: italic;
+}
