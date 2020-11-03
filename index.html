@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=Noto+Sans+JP:wght@900&family=Roboto+Condensed:wght@700&family=Roboto:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
 
-    <div class="container-fluid"><!--top-divtag-->
+    <div class="container-fluid"><!--container-fluid-->
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -25,10 +26,10 @@
             <a class="nav-link" href="#" id="about">About</a>
          </li>
          <li class="nav-item">
-            <a class="nav-link" href="#" id="skill">Skill</a>
+            <a class="nav-link" href="#" id="skill">Work</a>
          </li>
          <li class="nav-item">
-            <a class="nav-link" href="#">Work</a>
+            <a class="nav-link" href="#">Service</a>
          </li>
          <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
@@ -37,112 +38,78 @@
        </div>
        <div class="nav-icon">
            <a href="https://twitter.com/sekainosakusaku"><i class="fab fa-twitter"></i></a>
-           <a href="https://instagram.com/yusaku_mup0902"><i class="fab fa-instagram"></i></a>
+           <a href="https://instagram.com/yusaku_programming0902"><i class="fab fa-instagram"></i></a>
        </div>
      </nav>
       <div class="image">
         <!--topの画像の上に文字いれれる-->
       </div>
 
-      <div class="profile_contents">
-        <div class="profile" id="about">
-          <h1>Profile</h1>
-          <h5>Who I am</h5>
-        </div>
-        <div class="introduce d-flex flex-wrap justify-content-center">
-          <div class="icon col-lg-6 col-12 p-0 align-self-center">
-            <img class="yusaku img-fluid" src="person.jpg" alt="アイコン画像">
+      <!--私について-->
+      <div class="contents"><!--<div class="contents"-->
+        　<div class="contain_about">
+          <div class="about" id="about">
+            <h1>About</h1>
+            <h5>私について</h5>
           </div>
-          <!--<div class="col-lg-0 col-1 p-0 align-self-center"></div>-->
-          <div class="myself col-lg-5 col-10 p-0 align-self-center">
-            <div class="inside">
-              <p>
-                <span class="main">Name：</span>　
-                <span class="sub">えのもとゆうさく</span>
-              </p>
-              <p>
-                <span class="main">Age：</span>　
-                <span class="sub">&ensp;&ensp;2000年生まれ</span>
-              </p>
-              <p>
-                <span class="main">From：</span>　
-                <span class="sub">&ensp;大阪府大阪市</span>
-              </p>
-              <p>
-                <span class="main">Work：</span>　
-                <span class="sub">&ensp;大学生エンジニア</span>
-              </p>
-              <p>
-                <span class="main">Hobby：</span>　
-                <span class="sub">読書・旅行</span>
-              </p>
+          <div class="web">
+            <p>こちらはWEB制作事業を展開している<span class="eno">榎本悠作</span>のプロフィールです。</p>
+          </div>
+          <div class="profile">
+            <div class="aboutme">
+              <h1>Profile</h1>
+              <h3>Yusaku</h3>
+              <p>自己紹介文が入る</p>
             </div>
-          </div>
-        </div>
-      </div>
+            <div class="introduce">
+              <img class="yusaku img-fluid" src="person.jpg" alt="アイコン画像">
+            </div>
+          </div><!--profile-->
+          <div class="skill">
+            <h1>Skill</h1>
+          </div><!--skill-->
+        　</div>
 
-      <div class="row">
-        <div class="skill" id="skill">
-          <h1>Skill</h1>
-          <h5>What I do</h5>
-        </div>
-        <div class="col-lg-2"></div> <!--空白-->
-        <div class="langauge col-lg-8 d-flex flex-wrap">
-          <div class="can col-lg-4 col-md-4 col-sm-6 col-xs-12">
-            <i class="fab fa-html5"></i>
-            <p>html5</p>
-          </div>
-          <div class="can col-lg-4 col-md-4 col-sm-6 col-xs-12">
-            <i class="fab fa-css3-alt"></i>
-            <p>css3</p>
-          </div>
-          <div class="can col-lg-4 col-md-4 col-sm-6 col-xs-12">
-            <i class="fab fa-js-square"></i>
-            <p>javascript</p>
-          </div>
-          <div class="can col-lg-4 col-md-4 col-sm-6 col-xs-12">
-            <i class="fab fa-php"></i>
-            <p>php</p>
-          </div>
-          <div class="can col-lg-4 col-md-4 col-sm-6 col-xs-12">
-            <i class="fab fa-bootstrap"></i>
-            <p>bootstrap</p>
-          </div>
-          <div class="can col-lg-4 col-md-4 col-sm-6 col-xs-12">
-            <i class="fab fa-wordpress"></i>
-            <p>wordpress</p>
-          </div>
-        </div>
-        <div class="row-lg-2"></div> <!--空白-->
-      </div>
+          <!--制作実績-->
+          <div class="contain_work">
+            <div class="work" id="work">
+              <h1>Work</h1>
+              <h5>制作実績</h5>
+            </div>
+            <div class="product">
 
-      <div class="contents">
-        <div class="work" id="work">
-          <h1>Work</h1>
-          <h5>my career</h5>
-        </div>
-        <div class="card_content">
-          <div class="card" style="width: 18rem;">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect fill="#868e96" width="100%" height="100%"/><text fill="#dee2e6" dy=".3em" x="50%" y="50%">Image cap</text></svg>
-            <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect fill="#868e96" width="100%" height="100%"/><text fill="#dee2e6" dy=".3em" x="50%" y="50%">Image cap</text></svg>
-            <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+          <!--サービス内容-->
+          <div class="contain_service">
+            <div class="service" id="service">
+              <h1>Service</h1>
+              <h5>サービス内容</h5>
             </div>
           </div>
-          <div class="card" style="width: 18rem; ">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect fill="#868e96" width="100%" height="100%"/><text fill="#dee2e6" dy=".3em" x="50%" y="50%">Image cap</text></svg>
-            <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+          <!--お問い合わせ-->
+          <div class="contain_contact">
+            <div class="contact" id="contain">
+              <h1>Contact</h1>
+              <h5>お問い合わせ</h5>
+            </div>
+            <div class="web">
+              <p>お問い合わせ、制作のご依頼フォームのページです。お気軽にお問い合わせください。</p>
+            </div>
+            <div class="form">
+              <h2>Contact form</h2>
+            </div>
+            <div class="askform">
+              <!--依頼フォーム-->
             </div>
           </div>
-        </div>
-      </div>
-    </div><!--top-divtag-->
+      </div><!--<div class="contents"-->
+
+      <footer></footer>
+
+    </div><!--container-fluid-->
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
