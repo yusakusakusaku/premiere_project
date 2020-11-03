@@ -59,28 +59,34 @@
 
 /*------------Profile about me ---------------*/
 
-.profile_contents{
+.contents {
   padding-bottom:100px;
+  padding-top:100px;
+  width:75%; /*サイトの幅*/
+  margin: 0 auto;
 }
+
 
 .profile {
-  color:black;
-  padding:30px 30px 30px 50px;
-  margin-top:30px;
+  display:flex;
+  justify-content: space-between;
 }
 
-.profile h1{ /*-profile--*/
+.about {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding-bottom:20px;
+  margin-bottom:50px;
+}
+
+.about h1{ /*-profile--*/
   font-family: futura-pt,sans-serif;
-  font-size:40px;
+  font-size:50px;
+  font-weight:bold;
 }
 
-.profile h5{ /*--Who I am--*/
+.about h5{ /*--Who I am--*/
   font-family: 'Noto Serif SC',serif;
   font-style: italic;
-}
-
-.icon {
-  text-align: center;
 }
 
 .yusaku {
@@ -88,80 +94,87 @@
   height:370px;
 }
 
-
-
-.myself {
-  font-size: 25px;
-  box-shadow: 6px 6px 20px -2px rgba(80,80,80,0.6);
-  background: #fafafa;
+.web {
+  margin-top:-30px;
+  margin-bottom:50px;
 }
 
-.inside {
-  padding:50px;
-}
-
-.main {
-  font-family: futura-pt,sans-serif;
-  font-size:27px;
-}
-
-.sub {
-  font-style: italic;
-}
-
-
-/*--------------------skill paragraph------------------------*/
-
-.row {
-  background-color:rgba(0, 0, 0, 0.7);
-  margin-top:20px;
-  padding-bottom: 100px;
+.aboutme h1 {
+  border-left:5px solid #49d49d;
+  padding-left: 15px;
 }
 
 .skill {
-  width:100%;
-  color:white;
-  padding:30px 30px 30px 70px;
-  margin-top:30px;
+  margin-top:50px;
 }
 
-.skill h1{ /*--skill--*/
-  font-family: futura-pt,sans-serif;
-  font-size:40px;
+.skill h1{
+  border-left:5px solid #49d49d;
+  padding-left: 15px;
 }
 
-.skill h5{ /*--what I do--*/
-  font-family: 'Noto Serif SC',serif;
-  font-style: italic;
-}
-
-.can {
-  font-size:100px;
-  padding:30px;
-  text-align: center;
-  box-shadow: 6px 6px 20px -2px rgba(80,80,80,0.6);
-  background: #fafafa;
-}
-
-.can p {
-  font-size:30px;
-}
-
-
-/*-------------------work paragraph-------------------*/
+/*--------------------work paragraph------------------------*/
 
 .work {
-  width:100%;
-  padding:30px 30px 30px 50px;
-  margin-top:30px;
+  margin-top:100px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding-bottom:20px;
+  margin-bottom:50px;
 }
 
-.work h1{ /*--skill--*/
+.work h1{ /*-profile--*/
   font-family: futura-pt,sans-serif;
-  font-size:40px;
+  font-size:50px;
+  font-weight:bold;
 }
 
-.work h5{ /*--what I do--*/
+.work h5{ /*--Who I am--*/
   font-family: 'Noto Serif SC',serif;
   font-style: italic;
+}
+
+
+/*-------------------service paragraph-------------------*/
+
+.service {
+  margin-top:100px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding-bottom:20px;
+  margin-bottom:50px;
+}
+
+.service h1{ /*-profile--*/
+  font-family: futura-pt,sans-serif;
+  font-size:50px;
+  font-weight:bold;
+}
+
+.service h5{ /*--Who I am--*/
+  font-family: 'Noto Serif SC',serif;
+  font-style: italic;
+}
+
+/*-------------------contact paragraph-------------------*/
+
+.contact {
+  margin-top:100px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding-bottom:20px;
+  margin-bottom:50px;
+}
+
+.contact h1{ /*-profile--*/
+  font-family: futura-pt,sans-serif;
+  font-size:50px;
+  font-weight:bold;
+}
+
+.contact h5{ /*--Who I am--*/
+  font-family: 'Noto Serif SC',serif;
+  font-style: italic;
+}
+
+.form h2 {
+  border-left:5px solid #49d49d;
+  padding-left: 15px;
 }
