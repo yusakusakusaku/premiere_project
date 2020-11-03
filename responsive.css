@@ -38,28 +38,10 @@
     min-height:90%;
   }
 
-  .myself {
-    font-size:20px;
-    margin:0 auto;
-    margin-top:30px;
-  }
 
-  .main {   /*自己紹介の文字列分解*/
-    text-align: center;
-  }
-  .sub { /*自己紹介の文字列分解*/
-    display:inline-block;
-  }
 
   /*---------------work paragraph----------*/
 
-  .card_content {
-    text-align: center;
-  }
-
-  .card {
-    text-align: center;
-  }
 
  }
 
@@ -117,28 +99,8 @@
     height:80%;
   }
 
-  .myself {
-    font-size:20px;
-    margin:0 auto;
-    margin-top:30px;
-  }
-
-  .main {   /*自己紹介の文字列分解*/
-    text-align: center;
-  }
-  .sub { /*自己紹介の文字列分解*/
-    display:inline-block;
-  }
-
   /*---------------work paragraph----------*/
 
-  .card_content {
-    text-align: center;
-  }
-
-  .card {
-    text-align: center;
-  }
 
 
  }
@@ -186,28 +148,9 @@
     height:80%;
   }
 
-  .myself {
-    font-size:25px;
-    margin:0 auto;
-    margin-top:30px;
-  }
-
-  .main {   /*自己紹介の文字列分解*/
-    text-align: center;
-  }
-  .sub { /*自己紹介の文字列分解*/
-    display:inline-block;
-  }
 
   /*---------------work paragraph----------*/
 
-  .card_content {
-    text-align: center;
-  }
-
-  .card {
-    text-align: center;
-  }
 
  }
 
