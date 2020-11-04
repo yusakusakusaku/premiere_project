@@ -291,6 +291,10 @@ html {
   padding-left: 15px;
 }
 
+.form_all {
+  width:100%;
+}
+
 .form_item {
   margin-top:20px;
 }
