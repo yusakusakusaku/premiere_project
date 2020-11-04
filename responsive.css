@@ -25,25 +25,63 @@
     outline:none !important;
   }
 
-  /*------------Profile about me ---------------*/
+  /*-----------私について---------------*/
+  .profile {
+    flex-direction: column;
+  }
 
   .icon {
     text-align: center;
   }
 
-  .yusaku { /*yusakuicon*/
-    float:none;
-    min-width:300px;
-    min-width:90%;
-    min-height:90%;
+  .aboutme h2 {
+    margin-top:30px;
+    font-size:30px;
+  }
+
+  .aboutme h3{
+    font-size:27px;
   }
 
 
+  .yusaku { /*yusakuicon*/
+    float:none;
+    min-width:300px;
+    width:100%;
+    height:auto;
+    box-sizing: border-box;
+  }
 
-  /*---------------work paragraph----------*/
+  .skill h2 {
+    font-size:30px;
+  }
+
+  .skill_item li {
+    font-size:20px;
+    line-height: 50px;
+  }
+
+  .aboutme p {
+    line-height:25px;
+    font-size:15px;
+    margin-top: 30px;
+  }
+
+
+  /*---------------制作実績----------*/
 
 
  }
+
+ /*<p>
+   2000年生まれの榎本悠作です。<br>
+   現在は大阪を拠点に学生フリーランスとして<br>
+   LP・HP制作を中心に活動しています。<br>
+   大学２年生からプログラミングを勉強しはじめ、<br>
+   ありがたいことにお仕事を頂いているので<br>
+   現在も活動しています。<br>
+   お客様の期待を超える制作を心がけています。
+ </p>*/
 
 
 
@@ -86,20 +124,29 @@
     outline:none !important;
   }
 
-  /*------------Profile about me ---------------*/
+  /*------------私について---------------*/
+
+  .profile {
+    flex-direction: column;
+  }
 
   .icon {
     text-align: center;
   }
 
-  .yusaku { /*yusakuicon*/
-    float:none;
-    max-width:600px;
-    width:80%;
-    height:80%;
+  .aboutme h2 {
+    margin-top:30px;
   }
 
-  /*---------------work paragraph----------*/
+  .yusaku { /*yusakuicon*/
+    float:none;
+    min-width:300px;
+    width:100%;
+    height:auto;
+    box-sizing: border-box;
+  }
+
+  /*---------------制作実績----------*/
 
 
 
@@ -135,21 +182,30 @@
     outline:none !important;
   }
 
-  /*------------Profile about me ---------------*/
+  /*------------私について---------------*/
+
+  .profile {
+    flex-direction: column;
+  }
 
   .icon {
     text-align: center;
   }
 
+  .aboutme h2 {
+    margin-top:30px;
+  }
+
   .yusaku { /*yusakuicon*/
     float:none;
     min-width:300px;
-    width:80%;
-    height:80%;
+    width:100%;
+    height:auto;
+    box-sizing: border-box;
   }
 
 
-  /*---------------work paragraph----------*/
+  /*---------------制作実績----------*/
 
 
  }
@@ -160,4 +216,50 @@
 /* Large devices (desktops, less than 1200px)*/
 @media (max-width: 1199px) {
   /*画面サイズが1199px以下だったらここを読み込む*/
+
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .navbar-nav li :hover{
+    border: none;
+  }
+
+  .fa-twitter, .fa-instagram {
+    margin-right:15px;
+    margin-left:10px;
+  }
+
+  *:focus {
+    outline:none !important;
+  }
+
+  /*------------私について---------------*/
+
+  .profile {
+    flex-direction: column;
+  }
+
+  .icon {
+    text-align: center;
+  }
+
+  .aboutme h2 {
+    margin-top:30px;
+  }
+
+  .yusaku { /*yusakuicon*/
+    float:none;
+    min-width:300px;
+    width:100%;
+    height:auto;
+    box-sizing: border-box;
+  }
+
+  
+
+
+  /*---------------制作実績----------*/
+
+
  }
