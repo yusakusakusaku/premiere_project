@@ -94,13 +94,18 @@ html {
 }
 
 .yusaku {
-  width:550px;
+  min-width:530px;
   height:370px;
 }
 
 .explain {
   margin-top:-30px;
   margin-bottom:50px;
+}
+
+.aboutme {
+  word-wrap:break-all;
+  padding-right:15px;
 }
 
 .aboutme h2 {
@@ -115,7 +120,7 @@ html {
 }
 
 .aboutme p {
-  line-height:35px;
+  line-height:40px;
   font-size:20px;
   margin-top: 30px;
 }
@@ -197,16 +202,51 @@ html {
   margin-top:50px;
 }
 
-.service_back{
-  background-image: url(apple.jpg);
+.service_back_first{
+  background-image: url(basic.jpg);
   background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.service_back a {
+.service_back_second{
+  background-image: url(platinum.jpg);
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.service_back_third{
+  background-image: url(gold.jpg);
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.service_back_first a {
   text-decoration: none;
 }
 
-.service_back a :hover {
+.service_back_first a :hover {
+  background-color: rgba(255, 255, 255, .1);
+}
+
+.service_back_second a {
+  text-decoration: none;
+}
+
+.service_back_second a :hover {
+  background-color: rgba(255, 255, 255, .1);
+}
+
+.service_back_third a {
+  text-decoration: none;
+}
+
+.service_back_third a :hover {
   background-color: rgba(255, 255, 255, .1);
 }
 
