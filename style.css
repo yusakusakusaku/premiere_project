@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin:0;
   padding:0;
@@ -94,26 +98,52 @@
   height:370px;
 }
 
-.web {
+.explain {
   margin-top:-30px;
   margin-bottom:50px;
 }
 
-.aboutme h1 {
+.aboutme h2 {
   border-left:5px solid #49d49d;
   padding-left: 15px;
+  font-size:2.5em;
+}
+
+.aboutme h3 {
+  font-size:2em;
+  margin-top:30px;
+}
+
+.aboutme p {
+  line-height:35px;
+  font-size:20px;
+  margin-top: 30px;
 }
 
 .skill {
   margin-top:50px;
 }
 
-.skill h1{
+.skill h2{
   border-left:5px solid #49d49d;
   padding-left: 15px;
+  font-size:2.5em;
 }
 
-/*--------------------work paragraph------------------------*/
+.skill_item {
+  background-color: #d3d3d3;
+  padding:50px 50px 50px 70px;
+  margin-top:30px;
+}
+
+.skill_item li{
+  font-size:25px;
+  line-height: 70px;
+}
+
+
+
+/*--------------------制作実績------------------------*/
 
 .work {
   margin-top:100px;
@@ -134,7 +164,7 @@
 }
 
 
-/*-------------------service paragraph-------------------*/
+/*-------------------サービス内容-------------------*/
 
 .service {
   margin-top:100px;
@@ -154,13 +184,55 @@
   font-style: italic;
 }
 
-/*-------------------contact paragraph-------------------*/
+.explain {
+  margin-top:-30px;
+  margin-bottom:50px;
+}
+
+.service_all {
+  width:100%;
+}
+
+.service_all p {
+  margin-top:50px;
+}
+
+.service_back{
+  background-image: url(apple.jpg);
+  background-size:cover;
+}
+
+.service_back a {
+  text-decoration: none;
+}
+
+.service_back a :hover {
+  background-color: rgba(255, 255, 255, .1);
+}
+
+.service_item {
+  height:250px;
+  text-align: center;
+}
+
+.service_item h1 {
+  color: white;
+  line-height: 250px;
+  font-family: 'Oswald', sans-serif;
+  font-style: italic;
+  margin-top:100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*-------------------お問い合わせ-------------------*/
 
 .contact {
   margin-top:100px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   padding-bottom:20px;
   margin-bottom:50px;
+  font-family: cursive;
+  fontsixeggelfaf:fea;flex-flow: column;gkepfkegkllbb
 }
 
 .contact h1{ /*-profile--*/
@@ -174,7 +246,62 @@
   font-style: italic;
 }
 
-.form h2 {
+.form h3 {
   border-left:5px solid #49d49d;
   padding-left: 15px;
+}
+
+.form_item {
+  margin-top:20px;
+}
+
+.submitform {
+  background-color: #d3d3d3;
+  padding: 30px 50px;
+  margin-top:30px;
+}
+
+.text, .email, .tel { /*入力ボックス*/
+  margin-top:10px;
+  padding:5px 20px 5px 10px;
+}
+
+.submitform textarea {
+  width:100%;
+  padding:5px 10px;
+  margin-top:10px;
+}
+
+.submit {
+  padding:10px 60px !important;
+  background-color: #49d49d;
+  border:3px solid #49d49d;
+  border-radius:5px;
+  color: white;
+  margin-top:30px;
+}
+
+.submit:hover {
+  background-color:white;
+  color:#49d49d;
+}
+
+input[type="text"]:focus {
+  border: 2px solid #95f9e3;
+  outline: 0;
+}
+
+input[type="email"]:focus {
+  border: 2px solid #95f9e3;
+  outline: 0;
+}
+
+input[type="tel"]:focus {
+  border: 2px solid #95f9e3;
+  outline: 0;
+}
+
+textarea[name="message"]:focus {
+  border: 2px solid #95f9e3;
+  outline: 0;
 }
