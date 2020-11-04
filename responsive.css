@@ -67,9 +67,22 @@
     margin-top: 30px;
   }
 
+  /*-------------------お問い合わせ-------------------*/
 
-  /*---------------制作実績----------*/
+  .submitform {
+    background-color: #d3d3d3;
+    padding:5px 10px;
+    padding-bottom: 30px;
+  }
 
+  .text, .email, .tel { /*入力ボックス*/
+    margin-top:10px;
+  }
+
+  .submitform textarea {
+    width:100%;
+    margin-top:10px;
+  }
 
  }
 
@@ -256,7 +269,7 @@
     box-sizing: border-box;
   }
 
-  
+
 
 
   /*---------------制作実績----------*/
