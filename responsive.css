@@ -73,7 +73,6 @@
     background-size:cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
   }
 
   /*-------------------お問い合わせ-------------------*/
@@ -147,6 +146,10 @@
     text-align: center;
   }
 
+  .aboutme {
+    width:100%;
+  }
+
   .aboutme h2 {
     margin-top:30px;
   }
@@ -204,6 +207,10 @@
     text-align: center;
   }
 
+  .aboutme {
+    width:100%;
+  }
+
   .aboutme h2 {
     margin-top:30px;
   }
@@ -253,6 +260,10 @@
 
   .icon {
     text-align: center;
+  }
+
+  .aboutme {
+    width:100%;
   }
 
   .aboutme h2 {
