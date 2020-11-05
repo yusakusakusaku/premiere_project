@@ -94,7 +94,7 @@ html {
 }
 
 .yusaku {
-  min-width:530px;
+  width:530px;
   height:370px;
 }
 
@@ -106,6 +106,7 @@ html {
 .aboutme {
   word-wrap:break-all;
   padding-right:15px;
+  width:50%;
 }
 
 .aboutme h2 {
@@ -203,7 +204,7 @@ html {
 }
 
 .service_back_first{
-  background-image: url(basic.jpg);
+  background-image: url(black.jpg);
   background-size:cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -272,7 +273,7 @@ html {
   padding-bottom:20px;
   margin-bottom:50px;
   font-family: cursive;
-  fontsixeggelfaf:fea;flex-flow: column;gkepfkegkllbb
+  flex-flow: column;
 }
 
 .contact h1{ /*-profile--*/
