@@ -34,6 +34,10 @@
     text-align: center;
   }
 
+  .aboutme {
+    width:100%;
+  }
+
   .aboutme h2 {
     margin-top:30px;
     font-size:30px;
@@ -43,13 +47,16 @@
     font-size:27px;
   }
 
+  .aboutme p {
+    line-height:25px;
+    font-size:15px;
+    margin-top: 30px;
+  }
+
 
   .yusaku { /*yusakuicon*/
-    float:none;
-    min-width:300px;
     width:100%;
     height:auto;
-    box-sizing: border-box;
   }
 
   .skill h2 {
@@ -61,27 +68,12 @@
     line-height: 50px;
   }
 
-  .aboutme p {
-    line-height:25px;
-    font-size:15px;
-    margin-top: 30px;
-  }
-
   /*-------------------お問い合わせ-------------------*/
 
   .submitform {
     background-color: #d3d3d3;
     padding:5px 10px;
     padding-bottom: 30px;
-  }
-
-  .text, .email, .tel { /*入力ボックス*/
-    margin-top:10px;
-  }
-
-  .submitform textarea {
-    width:100%;
-    margin-top:10px;
   }
 
  }
@@ -153,7 +145,6 @@
 
   .yusaku { /*yusakuicon*/
     float:none;
-    min-width:300px;
     width:100%;
     height:auto;
     box-sizing: border-box;
@@ -211,7 +202,6 @@
 
   .yusaku { /*yusakuicon*/
     float:none;
-    min-width:300px;
     width:100%;
     height:auto;
     box-sizing: border-box;
@@ -263,7 +253,6 @@
 
   .yusaku { /*yusakuicon*/
     float:none;
-    min-width:300px;
     width:100%;
     height:auto;
     box-sizing: border-box;
