@@ -4,6 +4,14 @@
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) { /*--col-xs--*/
 /*画面サイズが575px以下だったらここを読み込む*/
+  .contents {
+    padding-top:30px;
+  }
+  
+  .image {
+    height:60vh;
+  }
+
   .navbar {
     background-color: rgba(0, 0, 0, 0.7);
   }
@@ -84,7 +92,6 @@
   }
 
  }
-
 
 
 
