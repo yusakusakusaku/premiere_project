@@ -51,7 +51,7 @@ html {
 }
 
 .image {
-  background-image: url('apple.jpg');
+  background-image: url('./apple.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
