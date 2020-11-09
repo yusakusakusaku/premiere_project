@@ -51,7 +51,7 @@ html {
 }
 
 .image {
-  background-image: url('./apple.jpg');
+  background-image: url('apple.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -208,7 +208,7 @@ html {
 }
 
 .service_back_first{
-  background-image: url(black.jpg);
+  background-image: url("black.jpg");
   background-size:cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -216,7 +216,7 @@ html {
 }
 
 .service_back_second{
-  background-image: url(platinum.jpg);
+  background-image: url("platinum.jpg");
   background-size:cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -224,7 +224,7 @@ html {
 }
 
 .service_back_third{
-  background-image: url(gold.jpg);
+  background-image: url("gold.jpg");
   background-size:cover;
   background-position: center center;
   background-repeat: no-repeat;
