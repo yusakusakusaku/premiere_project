@@ -23,7 +23,7 @@ html {
 /*-----------------共通ゾーン（上）---------------*/
 
 .image {
-  background-image: url('../image/plan-top.jpg');
+  background-image: url('https://github.com/yusakusakusaku/premiere_project/blob/main/plan-top.jpg?raw=true');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
