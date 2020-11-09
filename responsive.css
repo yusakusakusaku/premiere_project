@@ -1,6 +1,3 @@
-@media screen and (max-width: 1000px) {
-}
-
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) { /*--col-xs--*/
 /*画面サイズが575px以下だったらここを読み込む*/
