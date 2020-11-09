@@ -19,6 +19,7 @@ html {
   margin: 0 auto;
 }
 
+
 /*-----------------共通ゾーン（上）---------------*/
 
 .image {
@@ -69,7 +70,7 @@ html {
 }
 
 
-/*-------------------サービス内容-------------------*/
+/*-------------------サービス内容(topの見出し)-------------------*/
 
 .service {
   margin-top:0px;
@@ -93,6 +94,155 @@ html {
   margin-top:-30px;
   margin-bottom:50px;
 }
+
+/*------------------サービス内容----------------*/
+
+.service_detail {
+  margin-top:100px;
+}
+
+.service_detail h2{
+  border-left:5px solid #49d49d;
+  padding-left: 20px;
+  font-family: 'Noto Serif SC',serif;
+  font-weight: bold;
+}
+
+.service_product {
+  margin-top:50px;
+}
+
+.service_lp h3{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding-bottom:20px;
+  font-family: 'Noto Serif SC',serif;
+}
+
+.service_hp h3{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding-bottom:20px;
+  font-family: 'Noto Serif SC',serif;
+  margin-top:50px;
+}
+
+/*---------------料金プラン------------------*/
+
+/*----------料金プランの題名と説明--------*/
+
+.service_compare {
+  margin-top:150px;
+  height:700px;
+  text-align:center;
+}
+
+.service_compare h2{　
+  border-left:1px solid black;
+  padding-left: 20px;
+  font-family: 'Noto Serif SC',serif;
+  font-weight: bold;
+}
+
+.service_compare p {
+  margin-top:20px;
+}
+
+.service_compare li {　/*料金プランすべてのulのリスト*/
+  list-style: none;
+  padding-top:20px;
+}
+
+.money {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding-bottom:10px;
+  text-align: left;
+}
+/*----------ここまで　料金プランの題名と説明　ここまで-------*/
+
+
+/*-------サービスの内容全体-------*/
+
+.service_money {　/*サービスの内容全体*/
+  /*margin-top:100px;*/
+}
+
+.service_money li {
+  list-style: none;
+}
+
+.service_li li {/*トップページ、スマホ対応などプランの内容説明*/
+  padding-bottom:20px;
+}
+
+.service_name h4 {  /*プランの名前　ブラック、プラチナ、ゴールド*/
+  margin:5px 0 15px 0;
+  font-size:30px;
+  font-style: italic;
+  font-family: 'Noto Sans HK', sans-serif;
+}
+
+.service_money h5 {/*サービス内容題名　LP制作、HP制作、WordPress*/
+  font-family: 'Noto Serif SC',serif;
+}
+
+.service_name p{　/*プランの内容説明*/
+  /*padding-bottom:10px;*/
+  color:rgba(0, 0, 0, 0.6);
+}
+
+.service_money li {
+  border-bottom:1px solid rgba(0, 0, 0, 0.3);
+}
+
+/*-------ここまで　サービスの内容全体　ここまで-------*/
+
+/*-------ブラックプラン-------*/
+.service_black {
+  border:1px solid rgba(0, 0, 0, 0.3);
+  width:33.3%;
+  float:left;
+}
+
+.service_black p {
+  border-bottom:1px solid rgba(0, 0, 0, 0.3);
+  margin-bottom:0;
+}
+
+/*-------ここまで　ブラックプラン　ここまで-------*/
+
+
+/*-------プラチナプラン-------*/
+.service_platinum {
+  border:1px solid rgba(0, 0, 0, 0.3);
+  width:33.3%;
+  float:left;
+}
+
+.service_platinum p {
+  border-bottom:1px solid rgba(0, 0, 0, 0.3);
+  margin-bottom: 0;
+}
+
+/*-------ここまで　プラチナプラン　ここまで-------*/
+
+
+/*-------ゴールドプラン------*/
+.service_gold {
+  border:1px solid rgba(0, 0, 0, 0.3);
+  width:33.3%;
+  float:left;
+}
+
+.service_gold p {
+  border-bottom:1px solid rgba(0, 0, 0, 0.3);
+  margin-bottom: 0;
+}
+
+/*-------ここまで　ゴールドプラン　ここまで-------*/
+
+
+
+
+/*-----------------プラン内容-----------------*/
 
 .service_all {
   width:100%;
