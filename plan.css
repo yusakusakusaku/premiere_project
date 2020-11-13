@@ -242,51 +242,44 @@ html {
 
 
 
-/*-----------------プラン内容-----------------*/
+/*--------------------オプション料金---------------------------*/
 
-.service_all {
-  width:100%;
-}
-
-.service_all p {
-  margin-top:50px;
-}
-
-.service_back_first{
-  background-image: url(../home/black.jpg);
-  background-size:cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.service_back_second{
-  background-image: url(../image/platinum.jpg);
-  background-size:cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.service_back_third{
-  background-image: url(../image/gold.jpg);
-  background-size:cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.service_item {
-  height:250px;
-  text-align: center;
-}
-
-.service_item h1 {
-  color: white;
-  line-height: 250px;
-  font-family: 'Oswald', sans-serif;
-  font-size: 50px;
-  font-style: italic;
+.service_option {
   margin-top:100px;
-  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.option {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding-bottom:10px;
+  text-align: left;
+}
+
+.option h2 {
+  border-left:5px solid #49d49d;
+  padding-left: 20px;
+  font-family: 'Noto Serif SC',serif;
+  font-weight: bold;
+}
+
+.service_option p {
+  margin-top:20px;
+}
+
+.plus_money {
+  margin-top:50px;
+  font-size:20px;
+}
+
+.plus_money li {
+  list-style: none;
+  border:1px solid rgba(0, 0, 0, 0.1);
+  padding:30px;
+}
+
+.plus_money p {
+  float:left;
+}
+
+.plus_price {
+  float:right;
 }
