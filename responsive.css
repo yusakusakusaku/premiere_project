@@ -73,13 +73,24 @@
     font-size:20px;
     line-height: 50px;
   }
+  
+  
+   .service_back_first{
+     background-image: url(../image/responsiveBlack.jpg);
+   }
 
-  .service_back_first{
-    background-image: url(black.jpg);
-    background-size:cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-  }
+   .service_back_second{
+     background-image: url(../image/responsiveplutinum.jpg);
+   }
+
+   .service_back_third{
+     background-image: url(../image/responisvegold.jpg);
+   }
+
+   .service_item h1 {
+     font-size:40px;
+     line-height: 190px;
+   }
 
   /*-------------------お問い合わせ-------------------*/
 
@@ -156,8 +167,23 @@
     height:auto;
     box-sizing: border-box;
   }
+  
+     .service_back_first{
+     background-image: url(../image/responsiveBlack.jpg);
+   }
 
-  /*---------------制作実績----------*/
+   .service_back_second{
+     background-image: url(../image/responsiveplutinum.jpg);
+   }
+
+   .service_back_third{
+     background-image: url(../image/responisvegold.jpg);
+   }
+
+   .service_item h1 {
+     font-size:40px;
+     line-height: 190px;
+   }
 
 
 
@@ -219,8 +245,27 @@
   }
 
 
-  /*---------------制作実績----------*/
+   
+  .service_back_first{
+     background-image: url(../image/responsiveBlack.jpg);
+     background-size:cover;
+     background-attachment:local;
+   }
 
+   .service_back_second{
+     background-image: url(../image/responsiveplutinum.jpg);
+     background-size:100% auto;
+     background-attachment:local;
+   }
+
+   .service_back_third{
+     background-image: url(../image/responisvegold.jpg);
+   }
+
+   .service_item h1 {
+     font-size:50px;
+     line-height: 250px;
+   }
 
  }
 
@@ -273,10 +318,27 @@
     box-sizing: border-box;
   }
 
+  
+  
+   .service_back_first{
+     background-image: url(../image/responsiveBlack.jpg);
+     background-size:cover;
+     background-attachment:local;
+   }
 
+   .service_back_second{
+     background-image: url(../image/responsiveplutinum.jpg);
+     background-size:100% auto;
+     background-attachment:local;
+   }
 
+   .service_back_third{
+     background-image: url(../image/responisvegold.jpg);
+   }
 
-  /*---------------制作実績----------*/
-
+   .service_item h1 {
+     font-size:50px;
+     line-height: 250px;
+   }
 
  }
