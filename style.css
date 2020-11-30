@@ -174,8 +174,8 @@ html {
 }
 
 
-/*-------------------サービス内容-------------------*/
-
+/*-------------------サービス内容旧-------------------*/
+/*
 .service {
   margin-top:100px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
@@ -183,13 +183,13 @@ html {
   margin-bottom:50px;
 }
 
-.service h1{ /*-profile--*/
+.service h1{ /*-profile--*
   font-family: futura-pt,sans-serif;
   font-size:50px;
   font-weight:bold;
 }
 
-.service h5{ /*--Who I am--*/
+.service h5{ /*--Who I am--*
   font-family: 'Noto Serif SC',serif;
   font-style: italic;
 }
@@ -208,27 +208,24 @@ html {
 }
 
 .service_back_first{
-  background-image: url("https://github.com/yusakusakusaku/premiere_project/blob/main/black.jpg?raw=true");
+  background: url(../home/black.jpg);
   background-size:cover;
-  background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-position: center center;
 }
 
 .service_back_second{
-  background-image: url("https://github.com/yusakusakusaku/premiere_project/blob/main/platinum.jpg?raw=true");
+  background-image: url(../image/platinum.jpg);
   background-size:cover;
-  background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-position: center center;
 }
 
 .service_back_third{
-  background-image: url("https://github.com/yusakusakusaku/premiere_project/blob/main/responisvegold.jpg?raw=true");
+  background-image: url(../image/responisvegold.jpg);
   background-size:cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .service_back_first a {
@@ -268,8 +265,24 @@ html {
   font-style: italic;
   margin-top:100px;
   background-color: rgba(0, 0, 0, 0.5);
+}*/
+
+/*------------------------サービス内容新-------------------------*/
+
+.price {
+  list-style:none;
 }
 
+.price li{
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  font-size:20px;
+  padding:15px 0 15px 15px;
+}
+
+.price span{
+  float:right;
+  padding-right:15px;
+}
 /*-------------------お問い合わせ-------------------*/
 
 .contact {
