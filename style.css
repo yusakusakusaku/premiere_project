@@ -9,15 +9,15 @@ html {
 
 header {
   background-color: rgba(0, 0, 0, 0.8);
-  height:90px;
+  height:100px;
   text-align: center;
   margin:0px;
 }
 
 .header-right {
-  font-size:30px;
+  font-size:40px;
   text-align: center;
-  padding-top:25px;
+  padding:25px 0;
   font-family: 'JetBrains Mono', monospace;
   font-family: 'Raleway', sans-serif;
 }
