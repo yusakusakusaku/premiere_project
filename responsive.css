@@ -1,6 +1,11 @@
 /* Large devices (desktops, less than 1200px)*/
 @media (max-width: 1199px) {
   /*画面サイズが1199px以下だったらここを読み込む*/
+  
+  .header-right {
+    font-size:40px;
+    padding:25px 0;
+  }
 
   /*---------見出し自己紹介-----------*/
 
@@ -174,6 +179,11 @@
 /* Medium devices (tablets, less than 992px)*/
 @media (max-width: 991px) { /*--col-md--*/
   /*画面サイズが991px以下だったらここを読み込む*/
+  
+  .header-right {
+    font-size:40px;
+    padding:25px 0;
+  }
 
   /*---------見出し自己紹介-----------*/
 
@@ -346,6 +356,11 @@
 /* Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767px) { /*--col-sm--*/
   /*画面サイズが767px以下だったらここを読み込む*/
+  
+  .header-right {
+    font-size:35px;
+    padding:25px 0;
+  }
 
   /*---------見出し自己紹介-----------*/
 
@@ -521,6 +536,11 @@
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) { /*--col-xs--*/
   /*画面サイズが575px以下だったらここを読み込む*/
+  
+  .header-right {
+    font-size:30px;
+    padding:20px 0;
+  }
 
   /*---------見出し自己紹介-----------*/
 
