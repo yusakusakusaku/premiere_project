@@ -21,5 +21,11 @@ $(function(){
     $('#service_active').fadeIn();
     $('.active_service').fadeIn();
   });
+  
+  $('.scroll_btn').click(function(){
+    var id = $(this).attr('href');
+    var position = $(id).offset().top;
+    $('html, body').animate({'scrollTop':position}, 1000);
+  });
 
 });
